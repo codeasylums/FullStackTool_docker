@@ -1,0 +1,27 @@
+version: '2.0'
+
+services:
+ 
+  vscode:
+    build: .
+    ports:
+    - 3000:3000
+    - 3001:3001
+    - 3002:3002
+    - 3003:3003    
+    - 3004:3004
+    - 3005:3005
+    - 5000:5000
+    - 443:443
+    - 80:80
+    - 8080:8080
+    volumes:
+    - ./vscode:/home/coder/fullstack:rw
+    container_name: vs_code
+  
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb
+    hostname: mongodb 
+    ports:
+    - "27017:27017"
