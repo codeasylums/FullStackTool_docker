@@ -73,3 +73,8 @@ bash setup.sh
 ```
 Select 2 For start again 
 Select 3 for stopping the setup
+
+
+
+## Call if you get any error 
+Watsapp No : 8889009313 (Harsh Sharma)
